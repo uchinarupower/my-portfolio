@@ -1,3 +1,16 @@
+```
+npx create-react-app my-portfolio
+cd my-portfolio
+npm install react-bootstrap bootstrap
+npm uninstall react-router-dom
+npm install react-router-dom@5
+npm install @fortawesome/react-fontawesome
+npm install @fortawesome/fontawesome-svg-core
+npm install @fortawesome/free-solid-svg-icons
+npm start
+```
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
