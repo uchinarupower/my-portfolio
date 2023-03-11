@@ -1,3 +1,7 @@
+.about-section {
+    font-family: "Montserrat"
+}
+
 .profile-img {
     width: 200px;
     height: 200px;
@@ -13,12 +17,25 @@
   }
 }*/
 
+.mt-5 {
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.mb-5 {
+    margin-bottom: 50px;
+}
+
+.ml-3 {
+    margin-left: 20px;
+}
+
 .profile-name {
     margin-top: 30px;
 }
 
 .profile-content {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 /* レスポンシブデザインで、タブレット以上の場合に余白を設定 */
@@ -37,14 +54,16 @@
     }
 }
 
-@media (min-width: 992px){
+@media (min-width: 1400px){
     .profile-nameaka {
         margin-top: 50px;
     }
 }
 
 @media (max-width: 768px) {
-
+    .about-xs{
+        margin-left: 10px;
+    }
 }
 
 
