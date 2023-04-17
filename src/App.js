@@ -10,14 +10,11 @@ function App() {
     <Router>
       <Navigation />
       <Switch>
-        <Route path="/about">
+        <Route path="/my-portfolio">
           <About />
         </Route>
         <Route path="/event">
           <Event />
-        </Route>
-        <Route path="/">
-          <About />
         </Route>
       </Switch>
     </Router>
