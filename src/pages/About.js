@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import './About.css'; // CSSファイルのインポート
+import './About.css';
 import './style.css';
 
 const About = () => {
@@ -48,37 +48,11 @@ const About = () => {
           <Col lg={10}>
             <h2>Affiliations</h2>
             <ul>
-              <li>大上研究室</li>
+              <li>東京工業大学 大上研究室</li>
               <li>ロボット技術研究会 Aqua研</li>
             </ul>
           </Col>
         </Row>
-
-        <Row className="mt-5">
-          <Col lg={10}>
-            <h2>Award & Participation</h2>
-            <ul>
-              <li>情報処理学会 第85回全国大会 学生奨励賞</li>
-              <li>ROCKET PITCH NIGHT FESTIVAL 2023 参加</li>
-              <li>
-                <a href="https://www.titech.ac.jp/news/2023/065796">
-                  第8回 沖縄海洋ロボットコンペティション ROVノーマルタスク部門 3位
-                </a>
-              </li>
-              <li>
-                <a href="https://www.titech.ac.jp/news/2022/065095">
-                  第8回 水中ロボットフェスティバル AUV部門 3位
-                </a>
-              </li>
-              <li>
-                <a href="https://www.titech.ac.jp/news/2022/062942">
-                  Techno-Ocean2021 水中ロボット競技会 AUV部門 3位
-                </a>
-              </li>
-            </ul>
-          </Col>
-        </Row>
-
 
         <Row className="mt-5 mb-5">
           <Col lg={10}>
@@ -87,6 +61,7 @@ const About = () => {
               <li>Email : uchikawa.k.ac[at]m.titech.ac.jp</li>
               <li>Twitter : @uchinarupower</li>
               <li>GitHub : @uchinarupower</li>
+              <li>Zenn : @uchinarupower</li>
             </ul>
           </Col>
         </Row>

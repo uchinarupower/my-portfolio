@@ -1,41 +1,34 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import React from 'react';
+import { Container, Row, Col, Card } from 'react-bootstrap';
+import events from './Event.json';
+import './Event.css'
+import './style.css';
 
-const Event = () => {
+function Event() {
   return (
-    <Container>
-      <Row>
-        <Col md={3} className="text-center">
-          <p>2020</p>
-        </Col>
-        <Col md={9}>
-          <h2>Event Title</h2>
-          <p>Event description goes here...</p>
-        </Col>
-      </Row>
-      <Row>
-        <Col md={{ span: 9, offset: 3 }}>
-          <h2>Another Event Title</h2>
-          <p>Another event description goes here...</p>
-        </Col>
-      </Row>
-      <Row>
-        <Col md={3} className="text-center">
-          <p>2019</p>
-        </Col>
-        <Col md={9}>
-          <h2>Event Title</h2>
-          <p>Event description goes here...</p>
-        </Col>
-      </Row>
-      <Row>
-        <Col md={{ span: 9, offset: 3 }}>
-          <h2>Another Event Title</h2>
-          <p>Another event description goes here...</p>
-        </Col>
-      </Row>
-    </Container>
+    <div className='event-section'>
+      <Container className="mt-4 mb-5">
+        <h1>Event Timeline</h1>
+        <Row>
+          {events.map((event, index) => (
+            <Col lg={12} key={index} className="mt-4">
+              <Card className="shadow-sm">
+                <Card.Body>
+                  <Card.Title>{event.name}</Card.Title>
+                  <Card.Subtitle className="mb-2 text-muted">
+                    {event.date}
+                  </Card.Subtitle>
+                  <Card.Text>{event.location}</Card.Text>
+                  <Card.Text>{event.description}</Card.Text>
+                  <Card.Link>{event.url}</Card.Link>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </div>
   );
-};
+}
 
 export default Event;
