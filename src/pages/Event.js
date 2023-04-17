@@ -20,6 +20,7 @@ function Event() {
                   </Card.Subtitle>
                   <Card.Text>{event.location}</Card.Text>
                   <Card.Text>{event.description}</Card.Text>
+                  <Card.Link>{event.url}</Card.Link>
                 </Card.Body>
               </Card>
             </Col>
