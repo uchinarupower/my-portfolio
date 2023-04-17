@@ -7,7 +7,7 @@ import './style.css';
 function Event() {
   return (
     <div className='event-section'>
-      <Container className="mt-4">
+      <Container className="mt-4 mb-5">
         <h1>Event Timeline</h1>
         <Row>
           {events.map((event, index) => (
