@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Event 1",
+    "date": "May 1, 2022",
+    "location": "Tokyo, Japan",
+    "description": "This is the first event."
+  },
+  {
+    "name": "Event 2",
+    "date": "June 1, 2022",
+    "location": "Osaka, Japan",
+    "description": "This is the second event."
+  },
+  {
+    "name": "Event 3",
+    "date": "July 1, 2022",
+    "location": "Kyoto, Japan",
+    "description": "This is the third event."
+  },
+  {
+    "name": "Event 4",
+    "date": "August 1, 2022",
+    "location": "Sapporo, Japan",
+    "description": "This is the fourth event."
+  }
+]

@@ -87,6 +87,7 @@ const About = () => {
               <li>Email : uchikawa.k.ac[at]m.titech.ac.jp</li>
               <li>Twitter : @uchinarupower</li>
               <li>GitHub : @uchinarupower</li>
+              <li>Zenn : @uchinarupower</li>
             </ul>
           </Col>
         </Row>
