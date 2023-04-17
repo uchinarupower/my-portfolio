@@ -1,3 +1,7 @@
+# About
+uchinarupowerについてのポートフォリオです。react+bootstrapで開発されています。
+
+# environment memo
 ```
 npx create-react-app my-portfolio
 cd my-portfolio
