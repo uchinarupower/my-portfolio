@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./pages/About";
 import Event from "./pages/Event";
-import Navigation from "./components/Navigation";
+import Navigation from "./pages/Navigation";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
