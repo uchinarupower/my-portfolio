@@ -1,0 +1,16 @@
+/* Contact.css */
+
+.contact {
+  background-color: #fdfdfd;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.contact .contact-method {
+  margin-bottom: 10px;
+}

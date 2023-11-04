@@ -1,0 +1,18 @@
+/* EventTimeline.css */
+
+.event-timeline {
+  background-color: #e8e8e8;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.event-timeline h2 {
+  margin-bottom: 20px;
+}
+
+.event-timeline .event {
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-left: 3px solid #4CAF50;
+}
