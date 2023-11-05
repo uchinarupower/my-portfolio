@@ -1,28 +1,61 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+import { motion } from 'framer-motion';
 import './EventTimeline.css';
+import events from './events.json';
 
-function EventTimeline() {
-  const [events, setEvents] = useState([
-    { year: 2023, description: 'Event 1' },
-    { year: 2022, description: 'Event 2' }
-  ]);
+const listItemVariants = {
+  visible: i => ({
+    opacity: 1,
+    transition: {
+      delay: i * 0.1, // 0.1秒ごとに次のアイテムが表示される
+    },
+  }),
+  hidden: { opacity: 0 },
+};
 
-  // Normally you would fetch this data from an API or file
-  useEffect(() => {
-    // Here we're just using the static data above
-  }, []);
-
+const Event = ({ event, i }) => {
   return (
-    <section className="event-timeline">
-      <h2>Event Timeline</h2>
-      {events.map((event, index) => (
-        <div key={index} className="event">
-          <div className="event-year">{event.year}</div>
-          <div className="event-description">{event.description}</div>
-        </div>
-      ))}
-    </section>
+    <motion.div
+      className="event"
+      initial="hidden"
+      whileHover="visible"
+      layout
+    >
+      <div className="event-info">
+        <h3>{event.name}</h3>
+        <p>{event.date}</p>
+      </div>
+      <motion.div className="event-details" variants={listItemVariants} custom={1}>
+        <p>{event.location}</p>
+      </motion.div>
+      <motion.div className="event-details" variants={listItemVariants} custom={2}>
+        <p>{event.description}</p>
+      </motion.div>
+      <motion.div className="event-details" variants={listItemVariants} custom={3}>
+        <a href={event.link} target="_blank" rel="noopener noreferrer">{event.link_name}</a>
+      </motion.div>
+      {event.photo && (
+        <motion.img
+          src={event.photo}
+          alt={event.name}
+          className="event-photo"
+          variants={listItemVariants}
+          custom={4}
+        />
+      )}
+    </motion.div>
   );
-}
+};
+
+const EventTimeline =()=> {
+  return (
+    <div className="event-timeline">
+      <h2>EventTimeline</h2>
+      {events.map((event, index) => (
+        <Event key={event.id} event={event} i={index} />
+      ))}
+    </div>
+  );
+};
 
 export default EventTimeline;

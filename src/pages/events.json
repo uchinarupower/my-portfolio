@@ -1,9 +1,28 @@
 [
   {
+    "name": "情報計算化学生物学会(CBI学会) 2023年大会 Excellent Poster Award受賞",
+    "date": "October 23~26, 2023",
+    "location": "Tower Hall Funabori, Tokyo, Japan",
+    "description": "Identifying suitable AlphaFold2 protein structure models for improved structure-based virtual screeningについてポスター発表を行い、Excellent Poster Awardを受賞しました。",
+    "link_name" : "ref",
+    "link" : "https://www.cbi-society.jp/files/annual-meetings/2023/ExcellentPosterAward2023.pdf"
+  },
+  {
+    "name": "第7回 Tokyo Bioinformatics Meeting 主催 & ロングトーク発表",
+    "date": "October 14, 2023",
+    "location": "The University of Tokyo, Chiba, Japan",
+    "description": "主催として、第7回Tokyo Bioinformatics Meetingを開催しました。また、「バーチャルスクリーニングに適したAlphaFold2タンパク質立体構造モデルの選択」についてロングトークを行いました。",
+    "link_name" : "ref",
+    "link": "https://sites.google.com/site/tokyobioinformaticsmeeting/%E7%AC%AC7%E5%9B%9E%E7%A0%94%E7%A9%B6%E4%BC%9A?authuser=0"
+
+  },
+  {
     "name": "IFAC World Congress 2023 海洋ロボット夜の祭典 Best Performance Award受賞",
     "date": "July 12, 2023",
     "location": "Nippon Maru Memorial Park, Kawawgawa, Japan",
-    "description": "ロボット技術研究会 アクア研でIFAC World Congress 2023の関連イベントである「海洋ロボット夜の祭典」に出展し、Best Performance Awardを受賞しました。"
+    "description": "ロボット技術研究会 アクア研でIFAC World Congress 2023の関連イベントである「海洋ロボット夜の祭典」に出展し、Best Performance Awardを受賞しました。",
+    "link_name" : "東工大NEWS",
+    "link" : "https://www.titech.ac.jp/news/2023/067377"
   },
   {
     "name": "第74回 バイオ情報学(SIGBIO)研究会発表",
@@ -34,42 +53,40 @@
     "date": "November 19~20, 2022",
     "location": "Ginowan, Okinawa, Japan",
     "description": "ロボット技術研究会 アクア研で第8回沖縄海洋ロボットコンペティション ROV (Remotely Operated Vehicle、遠隔操縦型水中ロボット)ノーマルタスク部門に出場し、総合3位、敢闘賞を受賞しました。",
-    "url" : "https://www.titech.ac.jp/news/2023/065796"
+    "link_name": "東工大NEWS",
+    "link" : "https://www.titech.ac.jp/news/2023/065796"
   },
   {
     "name": "第6回 Tokyo Bioinformatics Meeting ショートトーク発表",
     "date": "October 15, 2022",
     "location": "Tokyo, Japan",
     "description": "第6回 Tokyo Bioinformatics Meetingに参加し、ショートトークを行いました。(演目非公開)",
-    "url" : "https://sites.google.com/site/tokyobioinformaticsmeeting/%E7%AC%AC6%E5%9B%9E%E7%A0%94%E7%A9%B6%E4%BC%9A"
+    "link_name": "ref",
+    "link" : "https://sites.google.com/site/tokyobioinformaticsmeeting/%E7%AC%AC6%E5%9B%9E%E7%A0%94%E7%A9%B6%E4%BC%9A"
   },
   {
     "name": "第8回 水中ロボットフェスティバル AUV部門 3位入賞",
     "date": "August 27~28, 2022",
     "location": "Iwakuni, Yamaguchi, Japan",
     "description": "ロボット技術研究会 アクア研で第8回 水中ロボットフェスティバル AUV(Autonomous Underwater Vehicle、自立型水中ロボット)部門に出場し、3位入賞しました。",
-    "url" : "https://www.titech.ac.jp/news/2022/065095"
+    "link_name": "東工大NEWS",
+    "link" : "https://www.titech.ac.jp/news/2022/065095"
   },
   {
     "name": "Techno-Ocean2021 水中ロボット競技会 AUV部門 3位入賞",
     "date": "December 11, 2021",
     "location": "Kobe, Hyogo, Japan",
     "description": "ロボット技術研究会 アクア研でTechno-Ocean2021 水中ロボット競技会 AUV部門に出場し、3位入賞しました。",
-    "url" : "https://www.titech.ac.jp/news/2022/062942"
+    "link_name": "東工大NEWS",
+    "link" : "https://www.titech.ac.jp/news/2022/062942"
   },
   {
     "name": "平成30年度SSH生徒研究発表会 ポスター発表賞受賞",
     "date": "August 8~9, 2018",
     "location": "Kobe, Hyogo, Japan",
     "description": "東京工業大学附属科学技術高校の代表としてSSH生徒研究発表会に参加し、「トリガなし音声認識を実装したスマートハウスシステムの構築」についてチームでポスター発表を行いました。結果、ポスター発表賞を受賞しました。",
-    "url" : "https://warp.ndl.go.jp/info:ndljp/pid/11293659/www.mext.go.jp/b_menu/houdou/30/08/1408177.htm"
-  },
-  {
-    "name": "平成30年度SSH生徒研究発表会 ポスター発表賞受賞",
-    "date": "August 8~9, 2018",
-    "location": "Kobe, Hyogo, Japan",
-    "description": "東京工業大学附属科学技術高校の代表としてSSH生徒研究発表会に参加し、「トリガなし音声認識を実装したスマートハウスシステムの構築」についてチームでポスター発表を行いました。結果、ポスター発表賞を受賞しました。",
-    "url" : "https://warp.ndl.go.jp/info:ndljp/pid/11293659/www.mext.go.jp/b_menu/houdou/30/08/1408177.htm"
+    "link_name": "ref",
+    "link" : "https://warp.ndl.go.jp/info:ndljp/pid/11293659/www.mext.go.jp/b_menu/houdou/30/08/1408177.htm"
   },
   {
     "name": "ロボカップジュニア ジャパンオープン2013 出場",
