@@ -1,4 +1,4 @@
-/* Header.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
 .header-container {
   display: flex;
@@ -7,6 +7,7 @@
   background-color: #333;
   color: white;
   padding: 20px;
+  font-family: 'Montserrat', sans-serif;
 
 }
 
