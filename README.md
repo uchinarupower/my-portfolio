@@ -12,6 +12,7 @@ npm install @fortawesome/react-fontawesome
 npm install @fortawesome/fontawesome-svg-core
 npm install @fortawesome/free-solid-svg-icons
 npm install gh-pages --save-dev
+npm install framer-motion
 npm start
 ```
 
